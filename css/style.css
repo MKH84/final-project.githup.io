@@ -1,0 +1,172 @@
+ * {
+     box-sizing: border-box;
+     font-family: 'Oswald', sans-serif;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ body {
+     margin: 0;
+ }
+
+
+ nav {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 25%;
+     height: 100vh;
+
+     /* Enable scrolling if the sidenav has too much content */
+     background-image: url("../img/blue-wave-background-vector.jpg");
+     background-size: cover;
+
+
+ }
+
+ .user-photo {
+     border-radius: 50%;
+     width: 90%;
+     height: auto;
+     border: 2px solid #6caed5;
+     margin: 0 auto;
+     overflow: hidden
+ }
+
+
+
+ nav section img {
+     width: 100%;
+     height: auto;
+     display: block;
+     margin: 0 auto;
+
+
+ }
+
+ .personal {
+     padding-left: 5px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: 500;
+ }
+
+ nav ul {
+     list-style-type: none;
+     font-size: 1em;
+     font-weight: 500;
+     overflow: auto;
+     /* Enable scrolling if the sidenav has too much content */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 30vh;
+
+ }
+
+ nav ul li {
+
+     height: 25%;
+     letter-spacing: 2px;
+
+ }
+
+ 
+
+ a:hover {
+     color: #e55656;
+ }
+
+ a {
+     text-decoration: none;
+     color: #084eaa;
+
+ }
+
+ main {
+     margin-left: 25%;
+ }
+
+ h1 {
+     text-align: center;
+     padding-top: 250px;
+     font-weight: bold;
+     font-size: 40px;
+     color: white;
+     font-family: 'Rubik Mono One', sans-serif;
+     text-shadow: 4px 4px 4px #19d6d3;
+
+ }
+
+
+
+
+
+ .parallax {
+     /* The image used */
+     background-image: url("../img/background.jpg");
+
+     /* Set a specific height */
+
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 10px;
+     opacity: 0.8;
+
+ }
+
+ .principal {
+     min-height: 100vh;
+ }
+
+ .slide {
+     height: 50vh;
+ }
+
+ .content-block {
+     padding: 10px;
+     font-size: 25px;
+     background-image: url("../img/blue-wave-background-vector.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ h2 {
+     align-content: center;
+     text-align: center;
+ }
+
+ .education {
+     height: 100vh;
+ }
+
+ .work-experience {}
+
+ .life-experience {
+
+     height: 100vh;
+
+ }
+
+ .skills {}
+
+ .footer {
+
+     height: ;
+     padding: 10px;
+     text-align: right;
+     font-weight: 600;
+     font-size: 20;
+     background-image: url("../img/background.jpg");
+     background-size: cover;
+     color: #e5e8e2;
+     letter-spacing: 2px;
+
+ }
